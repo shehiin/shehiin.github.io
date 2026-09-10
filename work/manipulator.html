@@ -3,32 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Open-source bimanual robotic arm setup for embodied AI research.">
-    <link rel="canonical" href="https://www.sheh.in/work/manipulator.html">
+    <link rel="canonical" href="https://sheh.in/work/manipulator.html">
     <meta property="og:locale" content="en_GB">
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-    <meta property="og:image" content="https://sheh.in/assets/icon_large.png">
+    <meta property="og:image" content="https://sheh.in/assets/og.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://sheh.in/assets/icon_large.png">
+    <meta name="twitter:creator" content="@shehiin">
+    <meta name="twitter:image" content="https://sheh.in/assets/og.png">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Robotic Manipulator - Shehin">
+    <meta property="og:title" content="Robotic Manipulator - Mohammed Shehin">
     <meta property="og:description" content="Open-source bimanual robotic arm setup for embodied AI research.">
     <meta name="twitter:description" content="Open-source bimanual robotic arm setup for embodied AI research.">
-    <title>Robotic Manipulator - Mohammed Shehin</title>
-    <link rel="icon" type="image/png" href="../assets/icon.png">
-    <link rel="stylesheet" href="../assets/css/style.css?v=2">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
-        rel="stylesheet">
+    <meta property="og:url" content="https://sheh.in/work/manipulator.html">
+    <meta property="og:site_name" content="Mohammed Shehin">
+    <title>Manipulator</title>
+    <link rel="icon" href="../assets/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/icon.png">
+    <link rel="apple-touch-icon" href="../assets/apple.png">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css?v=56">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MJPP4PF77R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -41,63 +36,63 @@
 </head>
 
 <body>
-    <div class="content">
-        <a href="../index.html" class="back-link"><i class="fa-solid fa-arrow-left" style="margin-right: 4px;"></i>
-            Home</a>
-
-        <div class="header-container">
-            <div class="text-content">
-                <h1 class="name">Robotic Manipulator</h1>
-
-                <div class="badge-container" style="margin-top: 10px;">
-                    <a href="https://github.com/shehiin/manipulator" target="_blank" rel="noopener" class="badge1">
-                        <i class="fa-brands fa-github"></i> Repository
-                    </a>
-                </div>
-            </div>
-        </div>
+    <main class="page">
+        <header class="project-header">
+            <h1 class="name">Robotic Manipulator</h1>
+        </header>
 
         <div class="divider"></div>
 
-        <div class="section-static">
-
-            <div class="section-header"><span class="bullet"></span><span class="section-title">Overview</span></div>
-            <p class="section-content">
-                An open-source 5 degrees of freedom bimanual robotic arm setup designed as a low-cost platform to
+        <section class="section">
+            <div class="section-heading">Overview</div>
+            <p>
+                An <a href="https://github.com/shehiin/manipulator" target="_blank" rel="noopener">open-source</a> 5
+                degrees of freedom bimanual robotic arm setup designed as a low-cost platform to
                 experiment with embodied AI.
             </p>
-            <img src="../assets/armsetup.png" alt="Robotic arm setup" class="work-image" />
-            <div class="img-caption img-caption-centered">Setup of the robotic arm.</div>
+            <img src="../assets/armsetup.png" alt="Robotic arm setup" class="media media-image" />
+        </section>
 
-            <div class="section-header"><span class="bullet"></span><span class="section-title">Hardware</span></div>
-            <ul class="section-content hardware-list">
-                <li><strong>Motors:</strong> 6x <a href="https://www.waveshare.com/st3215-servo.htm" target="_blank"
-                        rel="noopener">ST3215</a> serial bus servos</li>
-                <li><strong>Frame:</strong> 20x20 aluminum extrusions</li>
-                <li><strong>Printed Parts:</strong> PLA/PETG (STLs in <a href="https://github.com/shehiin/manipulator"
-                        target="_blank" rel="noopener">repo</a>)</li>
-            </ul>
+        <section class="section">
+            <div class="section-heading">Hardware</div>
+            <p>
+                Built with 6x <a href="https://www.waveshare.com/st3215-servo.htm" target="_blank"
+                    rel="noopener">ST3215</a> serial bus servos on a 20×20 aluminum extrusion frame, with PLA/PETG
+                printed joints (STLs in <a href="https://github.com/shehiin/manipulator" target="_blank"
+                    rel="noopener">repo</a>).
+            </p>
+        </section>
 
-            <div class="section-header"><span class="bullet"></span><span class="section-title">Videos</span></div>
-            <div class="video-grid">
-                <div class="video-container">
-                    <video class="work-video" autoplay loop muted playsinline controls>
-                        <source src="../assets/topview.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="img-caption">Top View</div>
-                </div>
-                <div class="video-container">
-                    <video class="work-video" autoplay loop muted playsinline controls>
-                        <source src="../assets/wristview.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="img-caption">Wrist View</div>
+        <section class="section">
+            <div class="section-heading">Videos</div>
+            <div class="synced-player">
+                <div class="media-grid">
+                    <div class="media-item">
+                        <div class="media-frame">
+                            <video class="media-video" controls autoplay loop muted playsinline>
+                                <source src="../assets/topview.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="media-caption">Top View</div>
+                    </div>
+                    <div class="media-item">
+                        <div class="media-frame">
+                            <video class="media-video" controls autoplay loop muted playsinline>
+                                <source src="../assets/wristview.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="media-caption">Wrist View</div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </div>
+        <div class="divider"></div>
+
+        <footer class="page-footer">
+            <a href="../index.html" class="back-link">Home</a>
+        </footer>
+    </main>
 </body>
 
 </html>
